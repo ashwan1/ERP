@@ -1,0 +1,50 @@
+/* 
+    Document   : main
+    Created on : Sep 24, 2014, 10:08:48 PM
+    Author     : intel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.myprojectlayout{
+    width: 98%;
+    height: 620px;
+}
+
+.myheadersection{
+    height: 100px;
+}
+
+.mymiddlesection{
+    height: 490px;
+}
+
+.myfootersection{
+    height: 35px;
+}
+.myleftsection{
+    width: 15%;
+    vertical-align: top;
+    background-color: #3333ff
+}
+
+.mybodysection{
+    width: 68%;
+    vertical-align: top;
+    background-color: cornsilk;
+}
+
+.myrightsection{
+    width: 17%;
+    vertical-align: top;
+    background-color:#3333ff;
+}
