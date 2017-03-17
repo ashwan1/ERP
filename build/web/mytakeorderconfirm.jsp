@@ -26,7 +26,7 @@
 
                         Class.forName("com.mysql.jdbc.Driver").newInstance();
 
-                        connection=DriverManager.getConnection(connectionstring,"root","pankaj");
+                        connection=DriverManager.getConnection(connectionstring,"root","i472bmt");
 
                         statement=connection.createStatement();
 
@@ -50,7 +50,7 @@
 
                                 Class.forName("com.mysql.jdbc.Driver").newInstance();
 
-                                connection2=DriverManager.getConnection(connectionstring2,"root","pankaj");
+                                connection2=DriverManager.getConnection(connectionstring2,"root","i472bmt");
 
                                 statement2=connection2.createStatement();
 

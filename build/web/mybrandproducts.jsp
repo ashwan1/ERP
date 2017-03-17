@@ -63,7 +63,7 @@
                         Class.forName("com.mysql.jdbc.Driver").newInstance();
 
 
-                         connection0=DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployeeperformanceerp","root","pankaj");
+                         connection0=DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployeeperformanceerp","root","i472bmt");
                          statement0=connection0.createStatement();
 
                          String sqlQuery0="SELECT * FROM Brand WHERE ID='"+brandidurl+"'";
@@ -86,7 +86,7 @@
                     Class.forName("com.mysql.jdbc.Driver").newInstance();
 
 
-                    connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployeeperformanceerp","root","pankaj");
+                    connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployeeperformanceerp","root","i472bmt");
 
                     statement=connection.createStatement();
 

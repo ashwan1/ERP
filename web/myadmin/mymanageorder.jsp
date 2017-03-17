@@ -46,7 +46,7 @@
 
                         Class.forName("com.mysql.jdbc.Driver").newInstance();
 
-                        connection=DriverManager.getConnection(connectionstring,"root","pankaj");
+                        connection=DriverManager.getConnection(connectionstring,"root","i472bmt");
 
                         statement=connection.createStatement();
 

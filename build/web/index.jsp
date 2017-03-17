@@ -72,7 +72,7 @@
                     Class.forName("com.mysql.jdbc.Driver").newInstance();
                     
                     
-                    connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployeeperformanceerp","root","pankaj");
+                    connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/myemployeeperformanceerp","root","i472bmt");
 
                     statement=connection.createStatement();
 

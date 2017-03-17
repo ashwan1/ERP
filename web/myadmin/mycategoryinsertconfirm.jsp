@@ -24,7 +24,7 @@
        Class.forName("com.mysql.jdbc.Driver");
        String connectionstring="jdbc:mysql://localhost:3306/myemployeeperformanceerp";
 
-       connection=DriverManager.getConnection(connectionstring,"root","pankaj");
+       connection=DriverManager.getConnection(connectionstring,"root","i472bmt");
        statement=connection.createStatement();
 
        String sqlQuery="INSERT INTO Category(CategoryText) VALUES ('"+category+"')";

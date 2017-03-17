@@ -48,7 +48,7 @@
                                           Class.forName("com.mysql.jdbc.Driver");
                                           String connectionstring1="jdbc:mysql://localhost:3306/myemployeeperformanceerp";
 
-                                          connection1=DriverManager.getConnection(connectionstring1,"root","pankaj");
+                                          connection1=DriverManager.getConnection(connectionstring1,"root","i472bmt");
                                           statement1=connection1.createStatement();
 
                                           String sqlQuery1="SELECT * FROM brand";
@@ -84,7 +84,7 @@
                                           Class.forName("com.mysql.jdbc.Driver");
                                           String connectionstring2="jdbc:mysql://localhost:3306/myemployeeperformanceerp";
 
-                                          connection2=DriverManager.getConnection(connectionstring2,"root","pankaj");
+                                          connection2=DriverManager.getConnection(connectionstring2,"root","i472bmt");
                                           statement2=connection2.createStatement();
 
                                           String sqlQuery2="SELECT * FROM category";
@@ -139,7 +139,7 @@
                     Class.forName("com.mysql.jdbc.Driver");
                     String connectionstring3="jdbc:mysql://localhost:3306/myemployeeperformanceerp";
 
-                    connection3=DriverManager.getConnection(connectionstring3,"root","pankaj");
+                    connection3=DriverManager.getConnection(connectionstring3,"root","i472bmt");
                     statement3=connection3.createStatement();
 
                     String sqlQuery3="SELECT ID,BrandID,(SELECT Brand.BrandText FROM Brand WHERE Brand.ID=Product.BrandID) AS BRANDTEXT,CategoryID,(SELECT Category.CategoryText FROM Category WHERE Category.ID=Product.CategoryID) AS CATEGORYTEXT,ProductName,Description,Price,LaunchDateTime FROM Product";
