@@ -3,7 +3,18 @@
     Created on : Sep 27, 2014, 10:50:28 AM
     Author     : intel
 --%>
-
+<%
+    String verified = "";
+    verified = (String)session.getAttribute("verified");
+    try{
+        if(!verified.equalsIgnoreCase("yes")){
+            response.sendRedirect("../adminlogin.jsp");
+            }
+        }
+    catch(Exception e){
+        response.sendRedirect("../adminlogin.jsp");
+    }
+%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">

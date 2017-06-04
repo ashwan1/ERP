@@ -37,7 +37,7 @@
 
          if(count==0)
              {
-                response.sendRedirect("myemployeelogin.jsp");
+                response.sendRedirect("myemployeelogin.jsp?error=1");
              }
          else
              {

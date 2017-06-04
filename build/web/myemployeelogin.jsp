@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
-
+<%String error= request.getParameter("error");%>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -34,6 +34,10 @@
                     </jsp:include>
                 </td>
                 <td class="mybodysection"><h2>Employee Login..</h2>
+                    <%if(error!=null){
+                        if(error.equalsIgnoreCase("1")){%>
+                    <span style="color: #990033">Wrong combination of username and password</span>
+                    <%}}%>
                     <div>
                         <table border="1" rules="none" style="background-color: cyan; margin-left: 10px;">
                             <tr>
@@ -44,7 +48,7 @@
                             <tr>
                                 <td>Password</td>
                                 <td>:</td>
-                                <td><input type="password" id="password" name="password"/></td>
+                                <td><input type="password" id="password" name="password" onkeyup="return clickBtn(event);"/></td>
                             </tr>
                             <tr>
                                 <td colspan="2"></td>

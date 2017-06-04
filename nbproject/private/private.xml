@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/mybranddeleteconfirm.jsp</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/src/java/servlets/AdminLogin.java</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/adminlogin.jsp</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/WEB-INF/web.xml</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/myadminwelcome.jsp</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/mybrandinsert.jsp</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/mycategoryinsert.jsp</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/myemployeeinsert.jsp</file>
         <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/myproductinsert.jsp</file>
-        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/myproductinsertconfirm.jsp</file>
+        <file>file:/D:/my%20practise/myemployeeperformanceerp/web/myadmin/mymanageorder.jsp</file>
     </open-files>
 </project-private>

@@ -10,21 +10,29 @@ function Elogin()
     var loginid=document.getElementById("logintext").value;
     var password=document.getElementById("password").value;
 
-    if(loginid!="")
+    if(loginid!=="")
         {
-            if(password!="")
+            if(password!=="")
                 {
                     window.location="myemployeesearch.jsp?loginid="+loginid+"&password="+password;
                 }
                 else
                     {
-                        alert("wrong login details");
+                        alert("Password required");
                     }
         }else
             {
-                alert("wrong login details");
+                alert("LoginID cannot be blank");
             }
 
 
 
+}
+
+function clickBtn(event){
+    if(event.keyCode === 13){
+        document.getElementById("butt1").click();
+        return true;
+    }
+    return false;
 }

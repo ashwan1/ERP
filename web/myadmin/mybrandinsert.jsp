@@ -3,6 +3,18 @@
     Created on : Sep 25, 2014, 2:25:36 PM
     Author     : intel
 --%>
+<%
+    String verified = "";
+    verified = (String)session.getAttribute("verified");
+    try{
+        if(!verified.equalsIgnoreCase("yes")){
+            response.sendRedirect("../adminlogin.jsp");
+            }
+        }
+    catch(Exception e){
+        response.sendRedirect("../adminlogin.jsp");
+    }
+%>
 <%@page import="java.io.*"%>
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
